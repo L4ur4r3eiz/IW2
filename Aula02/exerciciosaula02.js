@@ -47,6 +47,22 @@ a = b + 1;
 console.log(a, b)
 
 
+// Exercicio 02
+
+var nota1 = 10 ;
+var nota2 = 7 ;
+var nota3 = 5 ;
+
+var media = nota1*2 + nota2*3 + nota3*5 
+
+mediafinal = media / 10
+
+console.log(mediafinal)
+
+
+
+
+
 
 
 
