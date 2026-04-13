@@ -1,0 +1,43 @@
+
+
+
+body {
+    text-align: center;
+    height: 100vh;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TÍTULO */
+h1 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+/* TEXTO */
+#texto {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;;
+}
+
+/* BOTÃO */
+button {
+    background-color: #22c55e;
+    color: #020617;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER */
+button:hover {
+    background-color: #16a34a;
+    transform: scale(1.05);
+}
