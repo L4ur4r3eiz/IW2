@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <input type="number" id="num">
+  <button onclick="verificar()">Verificar</button>
+  <p id="res"></p>
+  <script>
+    function verificar() {
+      let n = document.getElementById("num").value;
+      document.getElementById("res").innerText =
+        F  n % 2 == 0 ? "Par" : "Ímpar";
+    }
+  </script>
+</body>
+
+</html>

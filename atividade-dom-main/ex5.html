@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <button onclick="modo()">Modo escuro</button>
+  <script>
+    let escuro = false;
+    function modo() {
+      escuro = !escuro;
+      document.body.style.backgroundColor = escuro ? "black" : "white";
+    }
+  </script>
+</body>
+
+</html>

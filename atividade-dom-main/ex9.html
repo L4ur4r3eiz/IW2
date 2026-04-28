@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <input type="password" id="senha">
+  <button onclick="validar()">Validar</button>
+  <p id="res"></p>
+  <script>
+    function validar() {
+      let senha = document.getElementById("senha").value;
+      document.getElementById("res").innerText =
+        senha.length >= 6 ? "Senha válida" : "Mínimo 6 caracteres";
+    }
+  </script>
+</body>
+
+</html>
